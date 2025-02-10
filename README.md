@@ -1,4 +1,4 @@
-# @elizaos/plugin-kaia
+# @elizaos-plugins/plugin-kaia
 
 Core Kaia plugin providing essential services, actions for token operations and wallet management.
 
@@ -16,7 +16,7 @@ The Kaia plugin provides comprehensive functionality for interacting with Kaia M
 ## Installation
 
 ```bash
-npm install @elizaos/plugin-kaia
+npm install @elizaos-plugins/plugin-kaia
 ```
 
 ## Configuration
@@ -34,7 +34,7 @@ KAIA_KAIASCAN_API_KEY=your_kaiascan_api_key # Used for all fetch actions
 3. Register the plugin in your Eliza configuration:
 
 ```typescript
-import { kaiaPlugin } from "@elizaos/plugin-kaia";
+import { kaiaPlugin } from "@elizaos-plugins/plugin-kaia";
 
 export default {
     plugins: [kaiaPlugin],
